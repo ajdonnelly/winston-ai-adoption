@@ -1281,6 +1281,17 @@ a.suite-tile:hover .suite-action span {
   margin-top: 0.85em;
 }
 
+.exp-card a {
+  color: var(--blue);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.exp-card a:hover {
+  color: var(--brand);
+}
+
 @media (max-width: 920px) {
   .exp-grid {
     grid-template-columns: 1fr;
